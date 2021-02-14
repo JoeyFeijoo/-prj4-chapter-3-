@@ -1,18 +1,35 @@
 @charset "UTF-8";
+* { 
+	margin: 0; 
+	padding: 0;
+}
 .my-container {
-	color: black;
-    border: 1px solid blue;
+    color: #FFFFFF;
     text-align: center;
-    background-color: lightgreen;
+    background-color: #000000;
+    
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .my-class {
-	color: red;
-    border: 1px solid blue;
+    color: #FFFFFF;
     text-align: center;
-    background-color: lightblue;
+    background-color: #000000;
+    text-shadow: 2px 2px;
 }
 #my-id {
-	color: red;
+    color: #FFF400;
 }
 .id {
+}
+.my-image {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding: 20px;
+}
+.body {
+    background-image: url(../images/kebab.jpg);
+	font-family: 'Reggae One', cursive;
 }
