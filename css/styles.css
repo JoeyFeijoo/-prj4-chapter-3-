@@ -7,17 +7,22 @@
     color: #FFFFFF;
     text-align: center;
     background-color: #000000;
-    
     padding: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 20px;
 }
 .my-class {
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
     background-color: #000000;
     text-shadow: 2px 2px;
+    background-image: url(../images/kebabstore.jpg);
+    background-position: 111px 31%;
+    border-bottom: medium inset #000000;
 }
+.my-footer {
+ 	color: #FFFFFF;
+    text-align:right;
+    background-color: #000000;}
 #my-id {
     color: #FFF400;
 }
