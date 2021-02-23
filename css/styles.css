@@ -1,7 +1,8 @@
 @charset "UTF-8";
-* { 
-	margin: 0; 
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
+    border-width: thick;
 }
 .my-container {
     color: #FFFFFF;
@@ -9,6 +10,8 @@
     background-color: #000000;
     padding: 20px;
     margin: 20px;
+    border-width: thick;
+    border-style: dashed;
 }
 .my-class {
     color: #000000;
@@ -29,10 +32,10 @@
 .id {
 }
 .my-image {
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: thick dashed #FFFFFF;
 }
 .body {
     background-image: url(../images/kebab.jpg);
